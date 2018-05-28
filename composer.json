@@ -1,0 +1,23 @@
+{
+    "name": "josephson/module-training-controller",
+    "description": "Testing Magento 2 controller without too much dependencies",
+    "type": "magento2-module",
+    "license": "GPL-3.0",
+    "version": "0.0.1",
+    "authors": [
+        {
+            "email": "josephson.eduardo@gmail.com",
+            "name": "Josephson"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Josephson\\SwatchRestApi\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}
